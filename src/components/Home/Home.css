@@ -1,0 +1,6 @@
+.body-container{
+    background-color: rgb(9, 9, 71);
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}

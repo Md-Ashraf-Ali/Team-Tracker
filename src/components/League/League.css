@@ -1,0 +1,21 @@
+.league-container{
+    
+        
+}
+.teams-container {
+    border: 1px solid black;
+    padding: 20px;
+    margin: 20px;
+    height: 350px;
+    width: 300px;
+    text-align: center;
+    line-height: 23px;
+    background-color: azure;
+    border-radius: 20px;
+
+}
+
+.teams-container img {
+    height: 200px;
+    width: 200px;
+}

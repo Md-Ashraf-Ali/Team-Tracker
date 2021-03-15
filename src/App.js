@@ -9,6 +9,7 @@ import {
 import NoMatch from './components/NoMatch/NoMatch';
 import League from './components/League/League';
 import TeamDetails from './components/TeamDetails/TeamDetails';
+import Header from './components/Header/Header';
 
 
 
@@ -18,6 +19,9 @@ function App() {
       <Switch>
         <Route path="/Home">
         <Home></Home>
+        </Route>
+        <Route path="/Header">
+         <Header></Header>
         </Route>
         <Route path = "/League/:idTeam">
           <TeamDetails></TeamDetails>

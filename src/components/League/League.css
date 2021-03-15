@@ -1,21 +1,42 @@
-.league-container{
+*{
+    box-sizing: border-box;
+}
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .league-container {
+        border: 1px solid black;
+        padding: 10px;
+        height: 324px;
+        width: 323px;
+        text-align: center;
+        line-height: 6px;
+        background-color: azure;
+        border-radius: 20px;
+        margin: 20px 20px 20px 20px;
+    }
     
-        
-}
-.teams-container {
-    border: 1px solid black;
-    padding: 20px;
-    margin: 20px;
-    height: 350px;
-    width: 300px;
-    text-align: center;
-    line-height: 23px;
-    background-color: azure;
-    border-radius: 20px;
-
+    .league-container img {
+        height: 130px;
+        width: 130px;
+    }
 }
 
-.teams-container img {
-    height: 200px;
-    width: 200px;
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .league-container {
+        border: 1px solid black;
+        padding: 20px;
+        height: 324px;
+        width: 430px;
+        text-align: center;
+        line-height: 18px;
+        background-color: azure;
+        border-radius: 20px;
+        margin: 20px 20px 20px 95px;
+    }
+    
+    .league-container img {
+        height: 130px;
+        width: 130px;
+    }
 }

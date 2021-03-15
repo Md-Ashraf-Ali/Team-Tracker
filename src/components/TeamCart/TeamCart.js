@@ -1,6 +1,5 @@
 import React from 'react';
 import ImageMale from '../Image/Images/male.png';
-// import Image from '../Image/Images/female.png';
 import ImageTwitter from '../Image/Images/Twitter.png';
 import ImageFacebook from '../Image/Images/Facebook.png';
 import ImageYouTube from '../Image/Images/YouTube.png';

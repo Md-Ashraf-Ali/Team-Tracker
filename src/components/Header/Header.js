@@ -1,15 +1,19 @@
-// import React from 'react';
+import React from 'react';
+import HeaderImage from '../Image/Images/Header.jpg'
+import './Header.css'
 
-// const Header = (props) => {
+const Header = (props) => {
 
-//     // const {strStadiumThumb} = props.team;
-//     return (
-//         <div>
-//             <h1>Team Tracker</h1>
-//             <img src={props.strStadiumThumb} alt=""/>
-           
-//         </div>
-//     );
-// };
+    return (
+        <div className ="header-container">
+            <div className="headerImage-container">
+                <img src={HeaderImage} alt=" header images"/>
+            </div>
+            <div className="headerTitle-container">
+                <h1>Team Tracker</h1>
+            </div>
+        </div>
+    );
+};
 
-// export default Header;
+export default Header;
